@@ -1,0 +1,469 @@
+.navbar{
+    width: 1200px;
+    height:75px;
+    margin:auto;
+}
+.menu{
+    width: 300%;
+    padding-left: 200px;
+    height: 70px;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top:27px ;
+    
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration:none;
+    color:white ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+    border-radius: 3px;
+}
+ul li a:hover{
+    color:orangered;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+
+.body{
+    background-image: url(shutterstock_1477723316.jpg);
+    background-repeat: no-repeat; 
+    /* background-size: cover;  */
+    height: 80vh;
+    
+    
+      
+    
+
+} 
+.resbody
+{
+    margin-top: 80px;
+    padding-right: 550px;
+    font-style: bold;
+    color: white;
+    opacity: 50;
+    size: 100px;
+}
+.resbody h2{
+    padding-left: 300px;
+}
+.submit{
+    margin-left: 100px;
+
+    
+}
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+.logo{
+    padding-left: 10px;
+   float:left;
+   padding-top: 20px;
+}
+#submit:hover{
+  background-color:blue;
+  cursor: pointer;
+  color:white;
+   
+} 
+.form
+{
+    width: 250px;
+    height:500px;
+    background-color: black;
+    position: absolute;
+    margin-top: 20px;
+    left: 870px;
+    border-radius:10px;
+    padding :25px;
+    padding-bottom: 1px;
+    right: 10px;
+    
+
+} 
+.form h2{
+    width:200px;
+    
+    text-align: center;
+    color:orange;
+    font-size:22px;
+    background-color: white;
+    border-radius: 10px;
+    margin:5px;
+    padding:8px;
+
+}   
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color:white;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.btn{
+    width:240px;
+    height:30px;
+    background:orange;
+    border:none;
+    margin-top: 10px;
+    border-radius:10px;
+    cursor:pointer;
+    
+
+}
+.btn:hover{
+    background-color: white;
+
+}
+.btn a{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+.link
+{
+    font-family:Arial,Arial, Helvetica, sans-serif;
+    font-size:13px;
+    padding-top:20px;
+    text-align: center;
+    /* background-color: white; */
+}
+.form .link a{
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:red;
+    padding: right 500px;
+
+}
+.link a:hover{
+    color: white;
+}
+.resbody p{
+
+    padding-right:230px;
+    letter-spacing: 1px;
+}
+.mainbody
+{
+    width: 250px; 
+    height:500px; 
+    background-color: black;
+    position: absolute;
+    margin-top: 20px;
+    left: 870px;
+    border-radius:10px;
+    padding :25px;
+    padding-bottom: 1px;
+    right: 10px;
+    
+}
+.mainbody h2{
+    width:200px;
+    
+    text-align: center;
+    color:orange;
+    font-size:22px;
+    background-color: white;
+    border-radius: 10px;
+    margin:5px;
+    padding:8px;
+
+
+}
+.mainbody input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color:white;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.bodyregister{
+    background-image: url(register\ image2.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  
+    background-size:1250px 700px;
+    opacity:500px;
+}
+.bodylogin
+{
+    background-image: url(REGISTER\ BACKGROUND.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  
+    background-size:1250px 700px;
+}
+.book{
+    width: 600px;
+    height:500px;
+    background-color:transparent;
+    border-bottom: black;
+    border-left: black;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+    border-radius:10px;
+    padding-bottom: 1px;
+    padding: 20px;
+    /* display: grid;
+    justify-content: space-between;
+    align-items: center; */
+
+
+
+}
+.book input {
+   
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+     
+
+
+}
+.button
+{
+    width:140px;
+    height:30px;
+    background:orange;
+    border:none;
+    margin-top: 10px;
+    border-radius:10px;
+    cursor:pointer;
+    margin-left: 220px;
+    
+}
+.button a{
+    text-decoration: none;
+    color:black;
+}
+.button a:hover{
+    color:white;
+    cursor:pointer;
+
+}
+.bookbody
+{
+    background-image: url(bookingimage5.webp);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  
+    background-size:1250px 700px; 
+}
+.signup-form{
+    height:500px;
+    width:480px;
+    background-color: grey;
+    margin-top:5%;
+    margin-left:25%;
+    margin-right: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    float: right;
+}
+.Signup-headbg-warning h1{
+    width:200px;
+    
+    text-align: center;
+    color:orange;
+    font-size:22px;
+    background-color: white;
+    border-radius: 10px;
+    margin:5px;
+    padding:8px;
+}
+.Signup-head{
+    padding:8px;
+}
+.signup-content .radio{
+    margin:10px 10px;
+}
+.signup-content2 .input{
+    width:400px;
+    padding:10px;
+    margin:10px;
+    color:white;
+    background-color: black;
+    padding:10px;
+    border-radius: 10px;
+}
+.signup-content2 .tarikh{
+    margin:10px;
+    padding:10px;
+    color:#fff;
+    background-color:black ;
+}
+.signup-content2  .person{
+    padding:10px;
+    margin:10px;
+    color:#fff;
+    background-color: black;
+}
+.signup-content2 .travel{
+    margin:20px 20px;
+}
+.signup-content2 .travel2{
+    padding:5px;
+}
+.signup-content2 .submit-btn{
+    border:none;
+    outline:none;
+    width:200px;
+    padding:10px;
+    margin-left:150px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: orange;
+
+}
+.submit-btn:hover{
+    cursor: pointer;
+    color:white;
+}
+.main{
+    font-size: 16px;
+    background-image: url(litegrey.jpg);
+    margin: 10px auto;
+    width: 50px;
+    height: 100px;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    border: 1.5px solid red;
+    border-radius: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+
+  
+  }
+  
+  .img10{
+    background-image: url(train21.jpg);
+    background-repeat:none ;
+    background-attachment: none;
+    background-size:1250px 700px; 
+
+  }
+  .end{
+    width:240px;
+    height:50px;
+  }
+ footer {
+    text-align: center;
+    padding: 3px;
+    background-color:black;
+    color:rgb(19, 19, 19);
+    
+    
+    
+  } 
+  
+  .card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: grey;
+     width:350px;
+    padding-left: 20px;
+    padding-right: -30px;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-top: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    
+
+  }
+  
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+  }
+  
+  
+  .container {
+     padding: 2spx 16px;
+     display: flex;
+    direction: row;
+    gap: 30px;
+    background-color:white;
+    
+   
+    
+     
+  }
+  .container1 {
+    padding: 2spx 16px;
+    display: flex;
+   direction: row;
+   gap: 30px;
+   background-color:white;
+   
+  }
+  .btnnn{
+    width:240px;
+    height:30px;
+    background:orange;
+    border:none;
+    margin-top: 10px;
+    border-radius:10px;
+    cursor:pointer;
+    margin-right: 10px;
+    margin-left: 25px;
+    padding-right: 20px;
+    
+    
+
+}
+.btnnn:hover{
+    background-color: white;
+
+}
+.btnnn a{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+.container h4{
+    color:white;
+    margin-left: 90px;
+}
+.container1 h4{
+    color:white;
+    margin-left:90px ;
+
+}
+.bt a:hover{
+    color:red;
+
+}
+ 
+
+
+
